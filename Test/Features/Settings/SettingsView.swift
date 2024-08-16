@@ -13,6 +13,7 @@ struct SettingsView: View {
     
     var body: some View {
         VStack {
+            Text("Type Something")
             TextField("placeholder", text: $settings.text)
         }
     }
